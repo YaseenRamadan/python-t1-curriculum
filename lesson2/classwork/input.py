@@ -9,4 +9,3 @@ number= int(user-input) #casting to an integer
 
 user_number= int(input("give me an integer"))
 print(user_number +1)
-

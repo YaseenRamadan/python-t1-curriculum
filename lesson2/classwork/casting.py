@@ -7,7 +7,7 @@ num_float= float(num_str) #converting a string to a float
 print(num_float)
 
 float_num=9.99
-int_num=int(float_num) #converting a float to an integer
+int_num=int(float_num) #converting a float to an integer by cutting the fraction
 print(int_num)
 
 num=100
