@@ -5,7 +5,7 @@ r=input("give me an integer")
 x = int(r)
 s=input("give me an integer") 
 y = int(s)
-print(x// y)
+print(x // y)
 print(x % y)
 # Homework Problem 2
 # Ask the user for their favorite animal and favorite color.

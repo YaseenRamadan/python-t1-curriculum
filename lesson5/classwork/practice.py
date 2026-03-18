@@ -4,13 +4,21 @@ import random
 # Create a list of 4 car brands.
 # Print the first and last.
 # Then add another brand using append() and print the updated list.
-
+cars = ["Toyota", "Honda", "Ford", "BMW"]
+print(cars[0])
+print(cars[3])
+cars.append("Nissan")
+print(cars)
 
 
 # Problem 2
 # Create a list of 5 numbers.
 # Print the number at index 2.
 # Then insert a new number at index 2 and print the updated list.
+numbers = [10, 20, 30, 40, 50]
+print(numbers[2])
+numbers.insert(2, 25)
+print(numbers)
 
 
 
