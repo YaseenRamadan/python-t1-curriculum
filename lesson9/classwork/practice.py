@@ -91,3 +91,17 @@ while True
     user = int(input("Enter the number 7:"))
     if user == 7:
         break
+
+
+
+
+factorial:
+
+result = 1
+num = 3
+for i in range(num):
+    result = num * result
+    num = num - 1
+    if num == 0:
+        break
+print(result)
