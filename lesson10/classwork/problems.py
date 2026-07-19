@@ -2,41 +2,62 @@ import random
 
 # Problem 1  ( 1 : 1 )
 # Create a variable for your favorite hobby and print it.
-
-
+hobby = "soccer"
+print(hobby)
+# Correct!
 
 # Problem 2  ( 1 : 1 )
 # Ask the user for a number.
 # Print the number multiplied by 3.
-
-
+user = int(input("Give me a number:"))
+print(user * 3)
+# Correct!
 
 # Problem 3  ( 1 : 1 )
 # Print every number from 5 to 10 (inclusive) using a for loop.
-
-
+for i in range(6):
+    print(i + 5)
+# Correct!
 
 # Problem 4  ( 2 : 1 )
 # Ask the user for two numbers. 
 # Print whether the first is larger, smaller, or equal to the second.
-
-
+user_1 = int(input("Give me a number:"))
+user_2 = int(input("Give me a number:"))
+if user_1 > user_2:
+    print("the first number is greater.")
+if user_1 == user_2:
+    print("Both numbers ars equal.")
+if user_1 < user_2:
+    print("The fist number is smaller than the second number.")
+# Correct!
 
 # Problem 5  ( 2 : 1 )
 # Use the modulo operator to print whether a random number from 1 to 20 is divisible by 4.
+random = int(input("Give me a number between 1 and 20:"))
+if random  // 4:
+    print("The number is divisible by 4")
+else:
+    print("The number is not divisible by 4") 
 
 
 
 # Problem 6  ( 2 : 1 )
 # Ask the user for a number between 1 and 10.
 # Use logical operators to print whether it’s in the lower half (1–5), upper half (6–10) or out of range.
-
-
+user = int(input("Give me a number between 1 and 10:"))
+if user >= 5:
+    print("You got the lower half.")
+if user <= 6:
+    print("You got the lower half.")
+if user > 10:
+    print("Your out of range.")
 
 # Problem 7  ( 2 : 1 )
 # Create a list of 5 animals. 
 # Print the length of the list and the second animal.
-
+list = ["panda",""
+""]
 
 
 # Problem 8  ( 3 : 1 )
